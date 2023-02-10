@@ -1,0 +1,348 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Portfolio websiye</title> 
+  <link rel="stylesheet" type="text/css" herf="css/style.css"> 
+  <link herf="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wgt@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"> 
+ <style type="text/css" id="dcoder_stylesheet">*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sqns-serif;
+  box-sizing: border-box;
+}
+.hero{
+  height: 100hv;
+  width: 100%;
+  background-color: #12181C;
+  background-size: cover;
+  background-position: centee;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8;
+}
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: green;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover{
+  color: green;
+  transform: ,4s;
+}
+.btn{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transitio: transparent .4s;
+}
+.btn:hover{
+  transform: scale(1.2);
+  background-color: white;
+  color: green;
+}
+.content{
+  width: 100%;
+  padding: 100px;
+  background-color: #101010;
+}
+h1{
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 50px;
+}
+h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4{
+  color: green;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newsletter form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.newsletter form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid green;
+  outline: none;
+  border-radius: 30px;
+}
+.about{
+  width: 100%;
+  padding: 100px;
+  background-color: #191919;
+}
+.about-text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color: white;
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p{
+  color: green;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+button{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  transition: .5s;
+  border-radius: 30px;
+}
+button:hover{
+  background-color: transparent;
+  border: 2px solid green;
+  cursor: pointer;
+}
+.service{
+  background: #101010;
+  width: 100%;
+  padding: 100px 0px;
+  align-items: center;
+}
+.title h2{
+  color: white;
+  font-size: 50px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+.card{
+  height: 409px;
+  width: 303px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 9px;
+  overflow: hidden;
+  text-align: center;
+}
+.contact-me{
+  width: 100%;
+  height: 400px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-me p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contact-me .button-two{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+.contact-me .button-two:hover{
+  background-color: transparent;
+  border: 2px solid green;
+  cursor: pointer;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1){
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer p:nth-child(2){
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: green;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  border-radius: 50%;
+  margin: 22px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social a:hover{
+  transform: scale(1.3);
+  transition: .5s;
+}
+.end{
+  position: absolute;
+  color: green;
+  bottom: 35px;
+  font-size: 14px;
+}</style></head> 
+ <body> 
+  <div class="hero"> 
+   <nav> 
+    <h2 class="logo">NE<span>XIS</span></h2> 
+    <ul> 
+     <li><a herf="index.html">Home</a></li> 
+     <li><a herf="#">About Me</a></li> 
+     <li><a herf="#">services</a></li> 
+     <li><a herf="#">Skills</a></li> 
+     <li><a herf="#">Contact Me</a></li> 
+    </ul> <a herf="#" class="btn">Subscribe</a> 
+   </nav> 
+  </div> <!--The Second section ----> 
+  <section> 
+   <div class="content "> 
+    <h4>Hi Hello there welcome to</h4> 
+    <h1>The Great <span>Inventors Website</span></h1> 
+    <h3>I'am a concept artist.</h3> 
+    <div class="newsletter"> 
+     <form> 
+      <input type="email" name="email" id="mail" placeholder="enter your Email"> 
+     </form> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="about"> 
+   <div class="main"> 
+    <div class="about-text"> 
+     <h2>What is this all about</h2> 
+     <h5>Developer and <span>Designer</span></h5> 
+     <p>OK, so at this point in the course, we've covered a lot of the basics of C. We know a lot about variables, arrays, pointers, all that good stuff. Those are all sort of built in to see as the fundamentals, but we can do more, right? We can combine things together in interesting ways. &gt;&gt; And so let's do that, let's start to branch out of what C gives us, and start to create our own data structures using these building blocks together to do something really valuable, useful. One way we can do this is to talk about collections. So so far we've had one kind of data structure for representing collections of like values, similar values. That would be an array. We have collections of integers, or collections of characters and so on. &gt;&gt; Structures are also sort of a data structure for collecting information, but it's not for collecting like values. It usually mixes</p> <button type="button">Let's Talk</button> 
+    </div> 
+   </div> 
+  </section> <!--The Service Section--------> 
+  <div class="service"> 
+   <div class="title"> 
+    <h2>My Ser<span>vices</span></h2> 
+   </div> 
+   <div class="box"> 
+    <div class="card"> 
+     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"> <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z" /> 
+     </svg> 
+     <h5>Web Developer</h5> 
+     <div class="pra"> 
+      <p>its just something I'm calling thats a kind of structure, basically, Im</p> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="box"> 
+    <div class="card"> 
+     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"> <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z" /> 
+     </svg> 
+     <h5>Web Developer</h5> 
+     <div class="pra"> 
+      <p>its just something I'm calling thats a kind of structure, basically, Im</p> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="box"> 
+    <div class="card"> 
+     <div class="icon"> 
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"> <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z" /> 
+      </svg> 
+     </div> 
+     <h5>Web Developer</h5> 
+     <div class="pra"> 
+      <p>its just something I'm calling thats a kind of structure, basically, Im</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="contact-me"> 
+   <p>Would you like to hire my services</p> <a class="button-two" herf="#">Hire me</a> 
+  </div> 
+  <footer> 
+   <p>The Great Inventor</p> 
+   <p>To here are links to my social media sites</p> 
+   <div class="social"> 
+     <a herf="#">
+     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+      <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+     </svg></a> 
+     <a herf="#"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></svg></a> 
+     <a herf="#"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" /></svg></a> 
+   </div> 
+   <p class="end">Copyright by The Great Inventor ©️</p> 
+  </footer> 
+ 
+</body></html>
